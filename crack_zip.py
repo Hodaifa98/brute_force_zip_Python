@@ -1,7 +1,7 @@
 #Import required modules.
 import zipfile
 
-#Zip name.
+#ZIP name.
 zip_name = "secret.zip"
 
 #Length of password.
