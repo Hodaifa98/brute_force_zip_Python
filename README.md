@@ -1,4 +1,4 @@
-# brute_force_archives_Python
+# brute_force_zip_Python
 A script to crack an archive file (.zip) and know its password.
 
 You can customize what characters to use, or even add numbers or special characters to the combination.
