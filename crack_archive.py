@@ -1,6 +1,9 @@
 #Import required modules.
 import zipfile
 
+#Zip name.
+zip_name = "secret.zip"
+
 #Length of password.
 pass_length = 4
 
@@ -20,7 +23,7 @@ for current in range(pass_length):
     complete = complete + a
 
 #Open the zip file.
-z = zipfile.ZipFile("secret.zip", "r")
+z = zipfile.ZipFile(zip_name, "r")
 
 #Hold number of tries it took to find the password.
 tries = 0
